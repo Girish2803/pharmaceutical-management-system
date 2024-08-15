@@ -1,0 +1,28 @@
+.doctor-view-container {
+    margin: 20px;
+  }
+  
+  .doctor-medicines-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .doctor-medicines-table th, .doctor-medicines-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .doctor-medicines-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  .doctor-medicines-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  .doctor-medicines-table tr:hover {
+    background-color: #ddd;
+  }
+  

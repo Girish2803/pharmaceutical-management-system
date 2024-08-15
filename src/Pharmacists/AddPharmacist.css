@@ -1,0 +1,9 @@
+.linkbuttonred{
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: red; /* Sea green background color */
+    text-decoration: none;
+    width:200px;
+    text-align: center;
+}

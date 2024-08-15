@@ -1,0 +1,75 @@
+.container {
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th,
+  td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  
+  .view-btn,
+  .edit-btn,
+  .delete-btn,
+  .add-btn,
+  .view-store-btn {
+    background-color: transparent;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+    text-decoration: none;
+  }
+  
+  .view-btn {
+    background-color: rgb(128, 201, 160);
+    text-decoration: none;
+    width:100px
+  }
+  
+  .edit-btn {
+    background-color: lightblue;
+    text-decoration: none;
+    width:100px
+  }
+  
+  .delete-btn {
+    background-color: lightcoral;
+    width:210px
+  }
+  
+  .add-btn,
+  .view-store-btn {
+    background-color: #5db0c5;
+    text-decoration: none;
+  }
+  
+  .add-btn:hover,
+  .view-store-btn:hover {
+    background-color: #5db0c5;
+    height: 50px;
+    text-decoration: none;
+  }
+  .add-btn,
+  .view-store-btn{
+    height:50px;
+    background-color: bisque;
+    text-decoration: none;
+  }

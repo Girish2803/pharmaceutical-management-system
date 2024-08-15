@@ -1,0 +1,58 @@
+/* ViewDoctor.css */
+.container {
+    background-color: #f0f8ff; /* Light blue background color for the outer container */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 10px;
+    width:500px
+}
+
+.details-container {
+    background-color: #ffffff; /* White background color for the inner container */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px; /* Width of the details container */
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.details-container div {
+    margin-bottom: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+b {
+    color: #555;
+}
+
+.link-button {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-align: center;
+    margin-top: 10px;
+    background-color: #007bff; /* Blue button for navigating back */
+}
+
+.link-button:hover {
+    opacity: 0.9;
+}

@@ -1,0 +1,69 @@
+/* Home.css */
+.home-container {
+    background-color: #f0f8ff; /* Light blue background color for the page */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.link-button {
+    text-decoration: none;
+    color: seagreen;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin: 5px;
+    display: inline-block;
+    text-align: center;
+}
+
+.add-button {
+    background-color: #28a745; /* Green button for adding a doctor */
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    text-align: left;
+    background-color: #f8f9fa; /* Light grey color for the table */
+    box-shadow: 0 2px 3px rgba(0,0,0,0.1);
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #343a40; /* Dark grey color for table headers */
+    color: white;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.link-button.delete-button {
+    background-color: #dc3545;
+    width: 100px; /* Red button for deleting a user */
+}
+
+.link-button.edit-button {
+    background-color: #007bff;
+    width: 20px; /* Blue button for editing a user */
+}
+
+.link-button.view-button {
+    background-color: #17a2b8;
+    width: 25px; /* Teal button for viewing a user */
+}
+
+td .link-button {
+    margin-right: 5px;
+    margin-left: 5px;
+}

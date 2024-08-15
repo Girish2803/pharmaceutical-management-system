@@ -1,0 +1,41 @@
+/* Container styling with a stylish gradient background */
+.container {
+    background: linear-gradient(135deg, #74ebd5, #9face6); /* Gradient background */
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  /* Image styling with padding */
+  .pharma-image {
+    max-width: 90%;
+    height: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+  }
+  
+  /* Button styling and positioning */
+  .login-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background-color: #ff7e5f; /* Stylish color */
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .login-button:hover {
+    background-color: #ff6b4a; /* Darker color on hover */
+    transform: scale(1.05); /* Slightly enlarge on hover */
+  }
+  

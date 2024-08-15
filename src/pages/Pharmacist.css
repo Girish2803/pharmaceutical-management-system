@@ -1,0 +1,91 @@
+/* Pharmacist.css */
+.container {
+    background-color: #f0f8ff; /* Light sea blue background color for the page */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    width: 800px;
+    margin: auto; /* Center the container */
+}
+
+.add-pharmacist-container {
+    background-color: white; /* Sea green background color for the add pharmacist section */
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 20px; /* Add some space between add pharmacist and table */
+    text-align: center; /* Align content to center */
+    width:20px
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    padding: 8px 12px;
+    border-radius: 4px;
+    text-align: center;
+}
+
+.add-button {
+    background-color: #28a745; /* Green button for adding a pharmacist */
+}
+
+
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.user-table th, .user-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.user-table th {
+    background-color: #343a40; /* Dark grey color for table headers */
+    color: white;
+}
+
+.user-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.link-button.delete-button {
+    background-color: #dc3545; /* Red button for deleting a pharmacist */
+    width:100px
+
+}
+
+.link-button.edit-button {
+    background-color: #007bff; /* Blue button for editing a pharmacist */
+    width:50px
+}
+
+.link-button.view-button {
+    background-color: #17a2b8;
+    width:50px /* Teal button for viewing a pharmacist */
+}
+
+.link-button + .link-button {
+    margin-left: 5px; /* Add some space between buttons */
+}
+/* Pharmacist.css */
+.addpharma {
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 4px;
+    background-color: #2ecc71; /* Sea green background color */
+    text-decoration: none;
+    
+}
+.addpharma:hover {
+    background-color: #218c58; /* Darker shade of sea green on hover */
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+/* Order.css */
+.container {
+    margin: auto;
+    padding: 5px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #f0f0f0; /* Neat background color for the table */
+}
+
+th,
+td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #dddddd;
+}
+
+tr:nth-child(even) {
+    background-color: #ffffff;
+}
+
+.approve-btn {
+    background-color: #87CEFA; /* Light blue color for approve button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.delete-btn {
+    background-color: #dc3545; /* Red color for delete button */
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.approve-btn:hover {
+    background-color: #5cb3fd; /* Darker shade of blue on hover for approve button */
+}
+
+.delete-btn:hover {
+    background-color: #c82333; /* Darker shade of red on hover for delete button */
+}

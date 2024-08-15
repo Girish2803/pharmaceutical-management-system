@@ -1,0 +1,46 @@
+/* ViewPharmacist.css */
+.container {
+    background-color: #f0f8ff; /* Light sea blue background color for the page */
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.user-details {
+    margin-bottom: 20px;
+}
+
+.user-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.user-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.user-table td:first-child {
+    width: 150px;
+    font-weight: bold;
+}
+
+.link-button {
+    text-decoration: none;
+    color: white;
+    background-color: #2ecc71; /* Sea green background color for buttons */
+    padding: 8px 12px;
+    border-radius: 4px;
+    display: block;
+    width: 200px;
+    margin: 0 auto; /* Center the button horizontally */
+}
+
+.link-button:hover {
+    background-color: #218c58; /* Darker shade of sea green on hover */
+}
